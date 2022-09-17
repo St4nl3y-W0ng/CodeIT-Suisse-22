@@ -1,4 +1,4 @@
-package codeit.template.model;
+package com.codeithackunamatata.codeitchallenge.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
