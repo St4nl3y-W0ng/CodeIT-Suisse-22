@@ -14,10 +14,11 @@ import java.util.Map;
 public class SquareResource {
     Logger logger = LoggerFactory.getLogger(SquareResource.class);
 
-   @RequestMapping(value = "square",method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
+   @RequestMapping(value = "/square",method = RequestMethod.POST, produces = MediaType.APPLICATION_JSON_VALUE)
     public Integer calculateSquare(@RequestBody Map<String, String> body){
        Integer value = Integer.parseInt(body.get("input"));
        logger.info("My Result--> {}",value);
        return value* value;
     }
+    
 }
