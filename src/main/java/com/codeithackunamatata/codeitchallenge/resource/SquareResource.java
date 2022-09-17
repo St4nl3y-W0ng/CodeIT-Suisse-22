@@ -1,4 +1,4 @@
-package codeit.template.resource;
+package com.codeithackunamatata.codeitchallenge.resource;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
