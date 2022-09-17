@@ -43,3 +43,5 @@ target/java-template-1.0-SNAPSHOT.jar
 target/java-template-1.0-SNAPSHOT.jar.original
 target/maven-archiver/
 target/maven-status/
+
+.vscode
